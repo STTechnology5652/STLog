@@ -8,11 +8,11 @@ Pod::Spec.new do |spec|
   DESC
 
   spec.homepage         = 'http://github.com/coder/STLog'
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "coder" => "123@gmail.com" }
   spec.ios.deployment_target = '9.0'
 
-  spec.source       = { :git => "http://github/coder/STLog.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/STTechnology5652/STLog.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
