@@ -1,16 +1,16 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "STLog"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "STLog 说明."
   spec.description      = <<-DESC
   STLog long description of the pod here.
   DESC
 
-  spec.homepage         = 'http://github.com/coder/STLog'
+  spec.homepage         = 'https://github.com/STTechnology5652/STLog'
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "coder" => "123@gmail.com" }
-  spec.ios.deployment_target = '9.0'
+  spec.ios.deployment_target = '13.0'
 
   spec.source       = { :git => "https://github.com/STTechnology5652/STLog.git", :tag => "#{spec.version}" }
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'STLog/{Public,Private}/**/*.{h,m,mm,c,cpp,swift}'
   # spec.exclude_files = "STLog/Exclude" #排除文件
 
-  spec.project_header_files = 'STLog/Private/**/*.{h}'
+  # spec.project_header_files = 'STLog/Private/**/*.{h}'
   spec.public_header_files = 'STLog/Public/**/*.h' #此处放置组件的对外暴漏的头文件
 
   # ――― binary framework/lib ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
